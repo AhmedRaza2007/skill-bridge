@@ -1,474 +1,697 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>course web page</title>
-    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="output.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://kit.fontawesome.com/ca86787c55.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ca86787c55.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
-</head>
-<body>
-    <header class=" container mx-auto">
-        <div class="px-4 text-white pt-2.5">
-          <h5 class="bg-[#FF9500] text-center py-3.5">Free Courses 🌟 Sale Ends Soon, Get It Now <i
-              class="fa-solid fa-arrow-right"></i></h5>
+  </head>
+  <body>
+    <header class="container mx-auto">
+      <div class="px-4 text-white pt-2.5">
+        <h5 class="bg-[#FF9500] text-center py-3.5">
+          Free Courses 🌟 Sale Ends Soon, Get It Now
+          <i class="fa-solid fa-arrow-right"></i>
+        </h5>
+      </div>
+      <nav class="mx-4 bg-[#F1F1F3]">
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 px-16"
+        >
+          <a
+            href="https://flowbite.com/"
+            class="flex items-center space-x-3 rtl:space-x-reverse"
+          >
+            <img src="img/Logo.png" class="h-8" alt="" />
+          </a>
+          <div
+            class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse"
+          >
+            <button
+              type="button"
+              class="focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center"
+            >
+              <a href="sign-up.html"> Sign Up </a>
+            </button>
+            <button
+              type="button"
+              class="text-white bg-[#FF9500] font-medium rounded-lg text-sm px-4 py-2 text-center"
+            >
+              <a href="login.html"> Login </a>
+            </button>
+
+            <button
+              data-collapse-toggle="navbar-cta"
+              type="button"
+              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              aria-controls="navbar-cta"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="mr-auto ml-12 items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+            id="navbar-cta"
+          >
+            <ul
+              class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0"
+            >
+              <li>
+                <a
+                  href="index.html"
+                  class="block py-2 px-3 rounded"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="course.html" class="block py-2 px-3 rounded"
+                  >Courses</a
+                >
+              </li>
+              <li>
+                <a href="about-us.html" class="block py-2 px-3 rounded"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="pricing.html" class="block py-2 px-3 rounded"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a href="contect.html" class="block py-2 px-3 rounded">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    <nav class=" mx-4 bg-[#F1F1F3]">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 px-20	">
-      <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="img/Logo.png" class="h-8" alt="" />
-      </a>
-      <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <button type="button" class=" focus:outline-none  font-medium rounded-lg text-sm px-4 py-2 text-center">Sign Up</button>
-          <button type="button" class="text-white bg-[#FF9500]  font-medium rounded-lg text-sm px-4 py-2 text-center">Login</button>
-    
-          <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
-            <span class="sr-only">Open main menu</span>
-            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-            </svg>
-        </button>
+      </nav>
+      <div class="mx-4">
+        <div class="Container pt-28 grid grid-cols-1 lg:grid-cols-2">
+          <h6 class="pl-20 text-[34px] font-semibold">
+            Online Courses on Design and Development
+          </h6>
+          <div>
+            <p>
+              Welcome to our online course page, where you can enhance your
+              skills in design and development. Choose from our carefully
+              curated selection of 10 courses designed to provide you with
+              comprehensive knowledge and practical experience. Explore the
+              courses below and find the perfect fit for your learning journey.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class=" mr-auto ml-12 items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
-        <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
-          <li>
-            <a href="index.html" class="block py-2 px-3 rounded" aria-current="page">Home</a>
-          </li>
-          <li>
-            <a href="course.html" class="block py-2 px-3 rounded">Courses</a>
-          </li>
-          <li>
-            <a href="about-us.html" class="block py-2 px-3 rounded ">About Us</a>
-          </li>   
-          <li>
-            <a href="pricing.html" class="block py-2 px-3 rounded ">Pricing</a>
-          </li>
-          <li>
-            <a href="#" class="block py-2 px-3 rounded ">Contact</a>
-          </li>
-        </ul>
-      </div>
-      </div>
-    </nav>
-     <div class="mx-4">
-        <div class="Container pt-28  grid grid-cols-1 lg:grid-cols-2">
-            <h6 class="pl-20 text-[34px] font-semibold">Online Courses on Design and Development</h6>
+    </header>
+    <section class="container mx-auto">
+      <div class="bg-[#FFFFFF] border mt-28">
+        <div class="px-4 mt-20 mx-auto mb-20">
+          <div class="container px-4 mt-20 mx-auto mb-20">
+            <div class="md:flex block justify-between">
+              <span class="w-3/4">
+                <h2 class="font-semibold text-4xl pb-2.5">
+                  Web Design Fundamentals
+                </h2>
+                <p class="text-base">
+                  Learn the fundamentals of web design, including HTML, CSS, and
+                  responsive design principles. Develop the skills to create
+                  visually appealing and user-friendly websites.
+                </p>
+              </span>
+              <span class="flex items-end">
+                <button
+                  class="border border-white-95 mt-5 py-3 bg-white-99 px-5 rounded-lg"
+                >
+                  View Course
+                </button>
+              </span>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-3 gap-8 px-12">
+            <img src="./img/img.svg" alt="" />
+            <img src="./img/design_prototype.png" alt="" />
+            <img src="./img/design_planning.png" alt="" />
+          </div>
+          <div
+            class="flex flex-col md:flex-row justify-between mb-12 mt-4 px-12 pt-8"
+          >
+            <div class="mb-4">
+              <span
+                class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5"
+                >4 Weeks</span
+              >
+              <span
+                class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5"
+                >Beginner</span
+              >
+            </div>
             <div>
-                <p>Welcome to our online course page, where you can enhance your skills in design and development. Choose from our carefully curated selection of 10 courses designed to provide you with comprehensive knowledge and practical experience. Explore the courses below and find the perfect fit for your learning journey.</p>
+              <span class="text-base font-medium">By John Smith</span>
             </div>
+          </div>
+          <div class="mb-12">
+            <div class="bg-[#F1F1F3] border mx-12">
+              <h4 class="py-6 px-8 text-2xl font-semibold">Curriculum</h4>
+            </div>
+            <div class="mx-12 bg-[#FFFFFF] border">
+              <ul
+                class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 sm:grid-cols-2"
+              >
+                <li class="pl-8 pb-14">
+                  <span class="border-right">
+                    <h1 class="text-[50px] font-extrabold">01</h1>
+                    <h6 class="text-lg font-medium color-[#333333]">
+                      Introduction to HTML
+                    </h6>
+                  </span>
+                </li>
+                <li class="pl-8 pb-14">
+                  <span class="border-right">
+                    <h1 class="text-[50px] font-extrabold">02</h1>
+                    <h6 class="text-lg font-medium color-[#333333]">
+                      Styling with CSS
+                    </h6>
+                  </span>
+                </li>
+                <li class="pl-8 pb-14">
+                  <span class="border-right">
+                    <h1 class="text-[50px] font-extrabold">03</h1>
+                    <h6 class="text-lg font-medium color-[#333333]">
+                      Introduction to Responsive Design
+                    </h6>
+                  </span>
+                </li>
+                <li class="pl-8 pb-14">
+                  <span class="border-right">
+                    <h1 class="text-[50px] font-extrabold">04</h1>
+                    <h6 class="text-lg font-medium color-[#333333]">
+                      Design Principles for Web
+                    </h6>
+                  </span>
+                </li>
+                <li class="pl-8 pb-14">
+                  <span class="border-right">
+                    <h1 class="text-[50px] font-extrabold">05</h1>
+                    <h6 class="text-lg font-medium color-[#333333]">
+                      Building a Basic Website
+                    </h6>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-     </div>
-      </header>
-      <section class="container mx-auto">
-        <div class="bg-[#FFFFFF] border mt-28">
-            <div class="px-4 mt-20 mx-auto mb-20">
-                <div class="container px-4 mt-20 mx-auto mb-20">
-                    <div class="md:flex block justify-between">
-                        <span class="w-3/4">
-                            <h2 class="font-semibold text-4xl pb-2.5">Web Design Fundamentals</h2>
-                            <p class="text-base">Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.</p>
-                        </span>
-                        <span class="flex items-end">
-                            <button class="border border-white-95 mt-5 py-3 bg-white-99 px-5 rounded-lg">View Course</button>
-                        </span>
-                    </div>
-                </div>
-            
-            <div class="grid grid-cols-3 gap-8 px-12">
-              <img src="./img/img.svg" alt="">
-              <img src="./img/design_prototype.png" alt="">
-              <img src="./img/design_planning.png" alt="">
-            </div>
-            <div class="flex flex-col md:flex-row justify-between mb-12 mt-4 px-12 pt-8">
-                <div class="mb-4">
-                    <span class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5">4 Weeks</span>
-                    <span class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5">Beginner</span>
-                </div>
-                <div>
-                    <span class="text-base font-medium">By John Smith</span>
-                </div>
-            </div>
-            <div class="mb-12">
-                <div class="bg-[#F1F1F3] border mx-12">
-                    <h4 class="py-6 px-8 text-2xl font-semibold	">Curriculum</h4>
-                </div>
-                <div class="mx-12 bg-[#FFFFFF] border">
-                    <ul class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 sm:grid-cols-2">
-                        <li class="pl-8	 pb-14 ">
-                            <span class="border-right ">
-                            <h1 class="text-[50px] font-extrabold">01</h1>
-                            <h6 class="text-lg	font-medium	color-[#333333]">Introduction to HTML</h6>
-                        </span>
-                        </li>
-                        <li class="pl-8 pb-14 ">
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">02</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">Styling with CSS</h6>
-                            </span>
-                        </li>
-                        <li class="pl-8	pb-14 ">
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">03</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">Introduction to Responsive Design</h6>
-                            </span>
-                        </li>
-                        <li class="pl-8 pb-14 ">
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">04</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">Design Principles for Web</h6>
-                            </span>
-                        </li>
-                        <li class="pl-8 pb-14 "  >
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">05</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">Building a Basic Website</h6>
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+      </div>
+    </section>
+    <section class="container mx-auto">
+      <div class="bg-[#FFFFFF] border mt-28">
+        <div class="container px-4 mt-20 mx-auto mb-20">
+          <div class="md:flex block justify-between">
+            <span class="w-3/4">
+              <h2 class="font-semibold text-4xl pb-2.5">UI/UX Design</h2>
+              <p class="text-base">
+                Master the art of creating intuitive user interfaces (UI) and
+                enhancing user experiences (UX). Learn design principles,
+                wireframing, prototyping, and usability testing techniques.
+              </p>
+            </span>
+            <span class="flex items-end">
+              <button
+                class="border border-white-95 mt-5 py-3 bg-white-99 px-5 rounded-lg"
+              >
+                View Course
+              </button>
+            </span>
+          </div>
         </div>
+        <div class="grid grid-cols-3 gap-8 px-12">
+          <img src="./img/web_design.png" alt="" />
+          <img src="./img/mobile_ui.png" alt="" />
+          <img src="./img/ui_wireframe.png" alt="" />
+        </div>
+        <div
+          class="flex flex-col md:flex-row justify-between mb-12 mt-4 px-12 pt-8"
+        >
+          <div class="mb-4">
+            <span
+              class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5"
+              >6 Weeks</span
+            >
+            <span
+              class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5"
+              >Intermediate</span
+            >
+          </div>
+          <div>
+            <span class="text-base font-medium">By Emily Johnson</span>
+          </div>
+        </div>
+        <div class="mb-12">
+          <div class="bg-[#F1F1F3] border mx-12">
+            <h4 class="py-6 px-8 text-2xl font-semibold">Curriculum</h4>
+          </div>
+          <div class="mx-12 bg-[#FFFFFF] border">
+            <ul
+              class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 sm:grid-cols-2"
+            >
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">01</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    Introduction to UI/UX Design
+                  </h6>
+                </span>
+              </li>
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">02</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    User Research and Personas
+                  </h6>
+                </span>
+              </li>
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">03</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    Wireframing and Prototyping
+                  </h6>
+                </span>
+              </li>
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">04</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    Visual Design and Branding
+                  </h6>
+                </span>
+              </li>
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">05</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    Usability Testing and Iteration
+                  </h6>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto">
+      <div class="bg-[#FFFFFF] border mt-28">
+        <div class="container px-4 mt-20 mx-auto mb-20">
+          <div class="md:flex block justify-between">
+            <span class="w-3/4">
+              <h2 class="font-semibold text-4xl pb-2.5">
+                Mobile App Development
+              </h2>
+              <p class="text-base">
+                Dive into the world of mobile app development. Learn to build
+                native iOS and Android applications using industry-leading
+                frameworks like Swift and Kotlin.
+              </p>
+            </span>
+            <span class="flex items-end">
+              <button
+                class="border border-white-95 mt-5 py-3 bg-white-99 px-5 rounded-lg"
+              >
+                View Course
+              </button>
+            </span>
+          </div>
+        </div>
+        <div class="grid grid-cols-3 gap-8 px-12">
+          <img src="./img/app_mockup.png" alt="" />
+          <img src="./img/ui_sketch.png" alt="" />
+          <img src="./img/design_concept.png" alt="" />
+        </div>
+        <div
+          class="flex flex-col md:flex-row justify-between mb-12 mt-4 px-12 pt-8"
+        >
+          <div class="mb-4">
+            <span
+              class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5"
+              >8 Weeks</span
+            >
+            <span
+              class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5"
+              >Beginner</span
+            >
+          </div>
+          <div>
+            <span class="text-base font-medium">By David Brown</span>
+          </div>
+        </div>
+        <div class="mb-12">
+          <div class="bg-[#F1F1F3] border mx-12">
+            <h4 class="py-6 px-8 text-2xl font-semibold">Curriculum</h4>
+          </div>
+          <div class="mx-12 bg-[#FFFFFF] border">
+            <ul
+              class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 sm:grid-cols-2"
+            >
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">01</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    Introduction to Mobile App Development
+                  </h6>
+                </span>
+              </li>
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">02</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    Fundamentals of Swift Programming (iOS)
+                  </h6>
+                </span>
+              </li>
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">03</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    Fundamentals of Kotlin Programming (Android)
+                  </h6>
+                </span>
+              </li>
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">04</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    Building User Interfaces
+                  </h6>
+                </span>
+              </li>
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">05</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    App Deployment and Testing
+                  </h6>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto">
+      <div class="bg-[#FFFFFF] border mt-28">
+        <div class="container px-4 mt-20 mx-auto mb-20">
+          <div class="md:flex block justify-between">
+            <span class="w-3/4">
+              <h2 class="font-semibold text-4xl pb-2.5">
+                Graphic Design for Beginners
+              </h2>
+              <p class="text-base">
+                Discover the fundamentals of graphic design, including
+                typography, color theory, layout design, and image manipulation
+                techniques. Create visually stunning designs for print and
+                digital media.
+              </p>
+            </span>
+            <span class="flex items-end">
+              <button
+                class="border border-white-95 mt-5 py-3 bg-white-99 px-5 rounded-lg"
+              >
+                View Course
+              </button>
+            </span>
+          </div>
+        </div>
+        <div class="grid grid-cols-3 gap-8 px-12">
+          <img src="./img/responsive_mockup.png" alt="" />
+          <img src="./img/ideas.png" alt="" />
+          <img src="./img/be-creative.png" alt="" />
+        </div>
+        <div
+          class="flex flex-col md:flex-row justify-between mb-12 mt-4 px-12 pt-8"
+        >
+          <div class="mb-4">
+            <span
+              class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5"
+              >10 Weeks</span
+            >
+            <span
+              class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5"
+              >Beginner</span
+            >
+          </div>
+          <div>
+            <span class="text-base font-medium">By Sarah Thompson</span>
+          </div>
+        </div>
+        <div class="mb-12">
+          <div class="bg-[#F1F1F3] border mx-12">
+            <h4 class="py-6 px-8 text-2xl font-semibold">Curriculum</h4>
+          </div>
+          <div class="mx-12 bg-[#FFFFFF] border">
+            <ul
+              class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 sm:grid-cols-2"
+            >
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">01</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    Introduction to Graphic Design
+                  </h6>
+                </span>
+              </li>
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">02</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    Typography and Color Theory
+                  </h6>
+                </span>
+              </li>
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">03</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    Layout Design and Composition
+                  </h6>
+                </span>
+              </li>
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">04</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    Image Editing and Manipulation
+                  </h6>
+                </span>
+              </li>
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">05</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    Designing for Print and Digital Media
+                  </h6>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto">
+      <div class="bg-[#FFFFFF] border mt-28">
+        <div class="container px-4 mt-20 mx-auto mb-20">
+          <div class="md:flex block justify-between">
+            <span class="w-3/4">
+              <h2 class="font-semibold text-4xl pb-2.5">
+                Front-End Web Development
+              </h2>
+              <p class="text-base">
+                Become proficient in front-end web development. Learn HTML, CSS,
+                JavaScript, and popular frameworks like Bootstrap and React.
+                Build interactive and responsive websites.
+              </p>
+            </span>
+            <span class="flex items-end">
+              <button
+                class="border border-white-95 mt-5 py-3 bg-white-99 px-5 rounded-lg"
+              >
+                View Course
+              </button>
+            </span>
+          </div>
+        </div>
+        <div class="grid grid-cols-3 gap-8 px-12">
+          <img src="./img/html-problem.png" alt="" />
+          <img src="./img/html-file.png" alt="" />
+          <img src="./img/dev-html-css.png" alt="" />
+        </div>
+        <div
+          class="flex flex-col md:flex-row justify-between mb-12 mt-4 px-12 pt-8"
+        >
+          <div class="mb-4">
+            <span
+              class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5"
+              >10 Weeks</span
+            >
+            <span
+              class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5"
+              >Beginner</span
+            >
+          </div>
+          <div>
+            <span class="text-base font-medium">By Michael Adams</span>
+          </div>
+        </div>
+        <div class="mb-12">
+          <div class="bg-[#F1F1F3] border mx-12">
+            <h4 class="py-6 px-8 text-2xl font-semibold">Curriculum</h4>
+          </div>
+          <div class="mx-12 bg-[#FFFFFF] border">
+            <ul
+              class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 sm:grid-cols-2"
+            >
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">01</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    HTML Fundamentals
+                  </h6>
+                </span>
+              </li>
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">02</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    CSS Styling and Layouts
+                  </h6>
+                </span>
+              </li>
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">03</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    JavaScript Basics
+                  </h6>
+                </span>
+              </li>
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">04</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    Building Responsive Websites
+                  </h6>
+                </span>
+              </li>
+              <li class="pl-8 pb-14">
+                <span class="border-right">
+                  <h1 class="text-[50px] font-extrabold">05</h1>
+                  <h6 class="text-lg font-medium color-[#333333]">
+                    Introduction to Bootstrap and React
+                  </h6>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-white-99 py-10">
+      <div class="container mx-auto px-4 lg:px-32">
+        <div
+          class="flex flex-wrap md:flex-wrap lg:flex-nowrap lg:justify-between"
+        >
+          <div class="mb-6 lg:mb-0 w-full lg:w-auto mt-5">
+            <ul>
+              <img src="./img/logo.png" alt="" class="pb-10" />
+              <li class="text-absolute-black mb-5">
+                <a href="#" class="flex items-center">
+                  <i class="fas fa-envelope mr-2"></i>
+                  hello@skillbridge.com
+                </a>
+              </li>
+              <li class="text-absolute-black mb-5">
+                <a href="#" class="flex items-center">
+                  <i class="fas fa-phone-alt mr-2"></i>
+                  +91 91813 23 2309
+                </a>
+              </li>
+              <li class="text-absolute-black flex items-center">
+                <i class="fas fa-map-marker-alt mr-2"></i>
+                Somewhere in the World
+              </li>
+            </ul>
+          </div>
+          <div class="w-full lg:w-auto mt-5 lg:mr-12">
+            <h4 class="font-semibold text-gray-15 mb-4">Home</h4>
+            <ul>
+              <li>
+                <a href="#" class="text-[#59595A] pb-2 block">Benefits</a>
+              </li>
+              <li>
+                <a href="#" class="text-[#59595A] pb-2 block">Our Courses</a>
+              </li>
+              <li>
+                <a href="#" class="text-[#59595A] pb-2 block"
+                  >Our Testimonials</a
+                >
+              </li>
+              <li><a href="#" class="text-[#59595A] pb-2 block">Our FAQ</a></li>
+            </ul>
+          </div>
+          <div class="w-full lg:w-auto mt-5 lg:mr-12">
+            <h4 class="font-semibold text-gray-15 mb-4">About Us</h4>
+            <ul>
+              <li><a href="#" class="text-[#59595A] pb-2 block">Company</a></li>
+              <li>
+                <a href="#" class="text-[#59595A] pb-2 block">Achievements</a>
+              </li>
+              <li>
+                <a href="#" class="text-[#59595A] pb-2 block">Our Goals</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full lg:w-auto mt-5">
+            <h4 class="font-semibold text-gray-15 mb-4">Social Profiles</h4>
+            <div class="flex space-x-4">
+              <a href="#" class="text-gray-35">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="text-gray-35">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="text-gray-35">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
         </div>
 
-      </section>
-      <section class="container mx-auto">
-        <div class="bg-[#FFFFFF] border mt-28">
-            <div class="container px-4 mt-20 mx-auto mb-20">
-                <div class="md:flex block justify-between">
-                    <span class="w-3/4">
-                        <h2 class="font-semibold text-4xl pb-2.5">UI/UX Design</h2>
-                        <p class="text-base">Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques.</p>
-                    </span>
-                    <span class="flex items-end">
-                        <button class="border border-white-95 mt-5 py-3 bg-white-99 px-5 rounded-lg">View Course</button>
-                    </span>
-                </div>
-            </div>
-            <div class="grid grid-cols-3 gap-8 px-12">
-              <img src="./img/web_design.png" alt="">
-              <img src="./img/mobile_ui.png" alt="">
-              <img src="./img/ui_wireframe.png" alt="">
-            </div>
-            <div class="flex flex-col md:flex-row justify-between mb-12 mt-4 px-12 pt-8">
-                <div class="mb-4">
-                    <span class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5">6 Weeks</span>
-                    <span class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5">Intermediate</span>
-                </div>
-                <div>
-                    <span class="text-base font-medium">By Emily Johnson</span>
-                </div>
-            </div>
-            <div class="mb-12">
-                <div class="bg-[#F1F1F3] border mx-12">
-                    <h4 class="py-6 px-8 text-2xl font-semibold	">Curriculum</h4>
-                </div>
-                <div class="mx-12 bg-[#FFFFFF] border">
-                    <ul class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 sm:grid-cols-2">
-                        <li class="pl-8	 pb-14 ">
-                            <span class="border-right ">
-                            <h1 class="text-[50px] font-extrabold">01</h1>
-                            <h6 class="text-lg	font-medium	color-[#333333]">Introduction to UI/UX Design</h6>
-                        </span>
-                        </li>
-                        <li class="pl-8 pb-14 ">
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">02</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">User Research and Personas</h6>
-                            </span>
-                        </li>
-                        <li class="pl-8 pb-14 ">
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">03</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">Wireframing and Prototyping</h6>
-                            </span>
-                        </li>
-                        <li class="pl-8 pb-14 ">
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">04</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">Visual Design and Branding</h6>
-                            </span>
-                        </li>
-                        <li class="pl-8 pb-14 "  >
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">05</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">Usability Testing and Iteration</h6>
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <div class="text-center text-gray-40 text-sm mt-8">
+          © 2024 Skillbridge. All rights reserved.
         </div>
-
-      </section>
-      <section class="container mx-auto">
-        <div class="bg-[#FFFFFF] border mt-28 ">
-            <div class="container px-4 mt-20 mx-auto mb-20">
-                <div class="md:flex block justify-between">
-                    <span class="w-3/4">
-                        <h2 class="font-semibold text-4xl pb-2.5">Mobile App Development</h2>
-                        <p class="text-base">Dive into the world of mobile app development. Learn to build native iOS and Android applications using industry-leading frameworks like Swift and Kotlin.</p>
-                    </span>
-                    <span class="flex items-end">
-                        <button class="border border-white-95 mt-5 py-3 bg-white-99 px-5 rounded-lg">View Course</button>
-                    </span>
-                </div>
-            </div>
-            <div class="grid grid-cols-3 gap-8 px-12">
-              <img src="./img/app_mockup.png" alt="">
-              <img src="./img/ui_sketch.png" alt="">
-              <img src="./img/design_concept.png" alt="">
-            </div>
-            <div class="flex flex-col md:flex-row justify-between mb-12 mt-4 px-12 pt-8">
-                <div class="mb-4">
-                    <span class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5">8 Weeks</span>
-                    <span class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5">Beginner</span>
-                </div>
-                <div>
-                    <span class="text-base font-medium">By David Brown</span>
-                </div>
-            </div>
-            <div class="mb-12">
-                <div class="bg-[#F1F1F3] border mx-12">
-                    <h4 class="py-6 px-8 text-2xl font-semibold	">Curriculum</h4>
-                </div>
-                <div class="mx-12 bg-[#FFFFFF] border">
-                    <ul class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 sm:grid-cols-2">
-                        <li class="pl-8	 pb-14 ">
-                            <span class="border-right ">
-                            <h1 class="text-[50px] font-extrabold">01</h1>
-                            <h6 class="text-lg	font-medium	color-[#333333]">Introduction to Mobile App Development</h6>
-                        </span>
-                        </li>
-                        <li class="pl-8 pb-14 ">
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">02</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">Fundamentals of Swift Programming (iOS)</h6>
-                            </span>
-                        </li>
-                        <li class="pl-8 pb-14 ">
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">03</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">Fundamentals of Kotlin Programming (Android)</h6>
-                            </span>
-                        </li>
-                        <li class="pl-8 pb-14 ">
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">04</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">Building User Interfaces</h6>
-                            </span>
-                        </li>
-                        <li class="pl-8 pb-14 "  >
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">05</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">App Deployment and Testing</h6>
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-      </section>
-      <section class="container mx-auto">
-        <div class="bg-[#FFFFFF] border mt-28">
-            <div class="container px-4 mt-20 mx-auto mb-20">
-                <div class="md:flex block justify-between">
-                    <span class="w-3/4">
-                        <h2 class="font-semibold text-4xl pb-2.5 ">Graphic Design for Beginners</h2>
-                        <p class="text-base">Discover the fundamentals of graphic design, including typography, color theory, layout design, and image manipulation techniques. Create visually stunning designs for print and digital media.</p>
-                    </span>
-                    <span class="flex items-end">
-                        <button class="border border-white-95 mt-5 py-3 bg-white-99 px-5 rounded-lg">View Course</button>
-                    </span>
-                </div>
-            </div>
-            <div class="grid grid-cols-3 gap-8 px-12">
-              <img src="./img/responsive_mockup.png" alt="">
-              <img src="./img/ideas.png" alt="">
-              <img src="./img/be-creative.png" alt="">
-            </div>
-            <div class="flex flex-col md:flex-row justify-between mb-12 mt-4 px-12 pt-8">
-                <div class="mb-4">
-                    <span class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5">10 Weeks</span>
-                    <span class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5">Beginner</span>
-                </div>
-                <div>
-                    <span class="text-base font-medium">By Sarah Thompson</span>
-                </div>
-            </div>
-            <div class="mb-12">
-                <div class="bg-[#F1F1F3] border mx-12">
-                    <h4 class="py-6 px-8 text-2xl font-semibold	">Curriculum</h4>
-                </div>
-                <div class="mx-12 bg-[#FFFFFF] border">
-                    <ul class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 sm:grid-cols-2">
-                        <li class="pl-8	 pb-14 ">
-                            <span class="border-right ">
-                            <h1 class="text-[50px] font-extrabold">01</h1>
-                            <h6 class="text-lg	font-medium	color-[#333333]">Introduction to Graphic Design</h6>
-                        </span>
-                        </li>
-                        <li class="pl-8 pb-14 ">
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">02</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">Typography and Color Theory</h6>
-                            </span>
-                        </li>
-                        <li class="pl-8 pb-14 ">
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">03</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">Layout Design and Composition</h6>
-                            </span>
-                        </li>
-                        <li class="pl-8 pb-14 ">
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">04</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">Image Editing and Manipulation</h6>
-                            </span>
-                        </li>
-                        <li class="pl-8 pb-14 "  >
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">05</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">Designing for Print and Digital Media</h6>
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-      </section>
-      <section class="container mx-auto">
-        <div class="bg-[#FFFFFF] border mt-28 ">
-            <div class="container px-4 mt-20 mx-auto mb-20">
-                <div class="md:flex block justify-between">
-                    <span class="w-3/4">
-                        <h2 class="font-semibold text-4xl pb-2.5">Front-End Web Development</h2>
-                        <p class="text-base">Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React. Build interactive and responsive websites.</p>
-                    </span>
-                    <span class="flex items-end">
-                        <button class="border border-white-95 mt-5 py-3 bg-white-99 px-5 rounded-lg">View Course</button>
-                    </span>
-                </div>
-            </div>
-            <div class="grid grid-cols-3 gap-8 px-12">
-              <img src="./img/html-problem.png" alt="">
-              <img src="./img/html-file.png" alt="">
-              <img src="./img/dev-html-css.png" alt="">
-            </div>
-            <div class="flex flex-col md:flex-row justify-between mb-12 mt-4 px-12 pt-8">
-                <div class="mb-4">
-                    <span class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5">10 Weeks</span>
-                    <span class="rounded-md border border-white-95 bg-white-99 p-2 gap-2.5">Beginner</span>
-                </div>
-                <div>
-                    <span class="text-base font-medium">By Michael Adams</span>
-                </div>
-            </div>
-            <div class="mb-12	">
-                <div class="bg-[#F1F1F3] border mx-12">
-                    <h4 class="py-6 px-8 text-2xl font-semibold	">Curriculum</h4>
-                </div>
-                <div class="mx-12 bg-[#FFFFFF] border">
-                    <ul class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 sm:grid-cols-2">
-                        <li class="pl-8	 pb-14 ">
-                            <span class="border-right ">
-                            <h1 class="text-[50px] font-extrabold">01</h1>
-                            <h6 class="text-lg	font-medium	color-[#333333]">HTML Fundamentals</h6>
-                        </span>
-                        </li>
-                        <li class="pl-8 pb-14 ">
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">02</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">CSS Styling and Layouts</h6>
-                            </span>
-                        </li>
-                        <li class="pl-8 pb-14 ">
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">03</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">JavaScript Basics</h6>
-                            </span>
-                        </li>
-                        <li class="pl-8 pb-14 ">
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">04</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">Building Responsive Websites</h6>
-                            </span>
-                        </li>
-                        <li class="pl-8 pb-14 "  >
-                            <span class="border-right ">
-                                <h1 class="text-[50px] font-extrabold">05</h1>
-                                <h6 class="text-lg	font-medium	color-[#333333]">Introduction to Bootstrap and React</h6>
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-      </section>
-      <footer class="bg-white-99 py-10">
-        <div class="container mx-auto px-4 lg:px-32">
-            <div class="flex flex-wrap md:flex-wrap lg:flex-nowrap lg:justify-between">
-                <div class="mb-6 lg:mb-0 w-full lg:w-auto mt-5">
-                    <ul>
-                        <img src="./img/logo.png" alt="" class="pb-10">
-                        <li class="text-absolute-black mb-5">
-                            <a href="#" class="flex items-center">
-                                <i class="fas fa-envelope mr-2"></i>
-                                hello@skillbridge.com
-                            </a>
-                        </li>
-                        <li class="text-absolute-black mb-5">
-                            <a href="#" class="flex items-center">
-                                <i class="fas fa-phone-alt mr-2"></i>
-                                +91 91813 23 2309
-                            </a>
-                        </li>
-                        <li class="text-absolute-black flex items-center">
-                            <i class="fas fa-map-marker-alt mr-2"></i>
-                            Somewhere in the World
-                        </li>
-                    </ul>
-                </div>
-                <div class="w-full lg:w-auto mt-5 lg:mr-12">
-                    <h4 class="font-semibold text-gray-15 mb-4">Home</h4>
-                    <ul>
-                        <li><a href="#" class="text-[#59595A] pb-2  block">Benefits</a></li>
-                        <li><a href="#" class="text-[#59595A] pb-2  block">Our Courses</a></li>
-                        <li><a href="#" class="text-[#59595A] pb-2  block">Our Testimonials</a></li>
-                        <li><a href="#" class="text-[#59595A] pb-2  block">Our FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="w-full lg:w-auto mt-5 lg:mr-12">
-                    <h4 class="font-semibold text-gray-15 mb-4">About Us</h4>
-                    <ul>
-                        <li><a href="#" class="text-[#59595A] pb-2  block">Company</a></li>
-                        <li><a href="#" class="text-[#59595A] pb-2  block">Achievements</a></li>
-                        <li><a href="#" class="text-[#59595A] pb-2  block">Our Goals</a></li>
-                    </ul>
-                </div>
-                <div class="w-full lg:w-auto mt-5">
-                    <h4 class="font-semibold text-gray-15 mb-4">Social Profiles</h4>
-                    <div class="flex space-x-4">
-                        <a href="#" class="text-gray-35">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#" class="text-gray-35">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="text-gray-35">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="text-center text-gray-40 text-sm mt-8">
-                © 2024 Skillbridge. All rights reserved.
-            </div>
-        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
